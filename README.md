@@ -59,6 +59,7 @@ Current workflow:
 The tooling is designed to support both normal levels and levels containing optional special mechanics.
 
 <img width="800" height="1200" alt="Ekran görüntüsü 2026-10-13 053414" src="https://github.com/user-attachments/assets/1d24ebff-e196-4a5f-be57-ce613b20fb2c" />
+>>>
 <img width="800" height="1200" alt="Ekran görüntüsü 2026-10-13 053911" src="https://github.com/user-attachments/assets/6475d917-c0cc-4058-8383-d66eef77cba0" />
 
 
