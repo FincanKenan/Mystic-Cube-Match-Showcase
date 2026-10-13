@@ -43,7 +43,7 @@ Some cubes are affected by neighboring connections and positional rules.
 ### Decoy / Bait
 Decoy elements introduce additional decision-making without changing the core matching rules.
 
-<img width="600" height="1000" alt="Ekran görüntüsü 2026-10-13 053335" src="https://github.com/user-attachments/assets/0a414909-4cb8-4fc2-bc98-e48ebd1dda14" />
+<img width="600" height="1200" alt="Ekran görüntüsü 2026-10-13 053335" src="https://github.com/user-attachments/assets/0a414909-4cb8-4fc2-bc98-e48ebd1dda14" />
 
 
 ---
