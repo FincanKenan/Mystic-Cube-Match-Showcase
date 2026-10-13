@@ -42,6 +42,7 @@ Some cubes are affected by neighboring connections and positional rules.
 
 ### Decoy / Bait
 Decoy elements introduce additional decision-making without changing the core matching rules.
+These mechanics are integrated into the same core ruleset and can be enabled individually or combined during level generation.
 
 <img width="600" height="1000" alt="Ekran görüntüsü 2026-10-13 053335" src="https://github.com/user-attachments/assets/0a414909-4cb8-4fc2-bc98-e48ebd1dda14" />
 
@@ -57,11 +58,14 @@ Current workflow:
 **Generate → Play Test → Save Snapshot → Approve to Published**
 
 The tooling is designed to support both normal levels and levels containing optional special mechanics.
+Generation settings can be configured directly from the custom editor, including seed values, cube counts, grid dimensions, layout complexity, and selectable cube types.
 
 <img width="800" height="1200" alt="Ekran görüntüsü 2026-10-13 053414" src="https://github.com/user-attachments/assets/1d24ebff-e196-4a5f-be57-ce613b20fb2c" />
->>>
-<img width="800" height="1200" alt="Ekran görüntüsü 2026-10-13 053911" src="https://github.com/user-attachments/assets/6475d917-c0cc-4058-8383-d66eef77cba0" />
 
+Generated candidates can then be inspected, manually adjusted, validated, and tested before being approved for the published level pool.
+
+<img width="800" height="1200" alt="Ekran görüntüsü 2026-10-13 053911" src="https://github.com/user-attachments/assets/6475d917-c0cc-4058-8383-d66eef77cba0" />
+The validation view shows geometry checks, distribution status, solver results, authoring state, and enabled special-rule settings before a level is approved.
 
 ---
 
@@ -70,6 +74,8 @@ The tooling is designed to support both normal levels and levels containing opti
 Generated levels are checked against the active gameplay rules so enabled mechanics remain compatible with solvable level states.
 
 The generation system takes special mechanics into account rather than treating them only as visual modifiers.
+
+This allows the generator to produce varied layouts while keeping the active gameplay constraints part of the validation process.
 
 ---
 
@@ -107,7 +113,8 @@ The generation system takes special mechanics into account rather than treating 
 
 The core gameplay loop, special mechanics, and level-authoring workflow are currently playable and actively being developed.
 
-The mobile release version is not yet prepared.
+The current build is focused on gameplay systems, level generation, and editor tooling; a mobile release build has not yet been prepared.
 
-The full production source code is kept private.  
-This repository showcases the game's gameplay systems and development tools for portfolio purposes.
+The full production source code is kept private.
+
+This repository showcases the project's gameplay systems, custom level-authoring tools, and solver-aware generation workflow for portfolio purposes.
